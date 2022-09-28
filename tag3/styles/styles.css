@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.textBox{
+    min-height: 80px;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: red;
+    color: yellow;
+}
+
+.textBoxFonts{
+    color: red;
+}
