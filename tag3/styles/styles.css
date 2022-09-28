@@ -15,3 +15,13 @@
 .textBoxFonts{
     color: red;
 }
+
+#toDoSection{
+    min-height: 400px;
+    height: auto;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -45,7 +45,6 @@ paragEl.className="textBoxFonts";//zweite class für textBox
 //die gesamte section incl. dem section inner an die ID=START hängen
 startEl.appendChild(sectionEl);
 
-console.log(startEl)
 
 
 
