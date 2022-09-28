@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+#contentWrapper{
+     background-color: rgba(255, 18, 45, .5);  
+}
+/*start header*/
+#header{
+    height: 200px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+
+}
+
+#listItems{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.listItem{
+   background-color: gray;
+    margin: 10px 10px;
+    min-width: 150px; 
+    width: 15%;
+    list-style-type: none;
+    
+    /*
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    */
+   }
+
+   .listItem:last-child{
+    background-color: purple
+   }
+
+.listItem a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition:3s
+}
+
+.listItem a:hover{
+    background-color: yellow;
+    color: blue;
+    }
+
+/*start section 1*/
+
+#h1Section1{
+    color: white;
+    text-align: center;
+}
+
+
+
+#section1 h3{
+    
+    color: white;
+    text-align: center;
+}
+
+
+
+/*start section2*/
+
+#section2 h3{
+    text-align: center;
+
+}
+
+#section2 p{
+    padding: 20px;
+    line-height: 2rem;
+}
+
+#section2 p::first-letter{
+    font-size: 3rem;   
+}
+
+.buttonStyling{
+    border: 2px solid black;
+    outline: 0;
+    margin-left: 100px;
+    min-width: 150px;
+    padding: 10px 0;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+.buttonStyling::after{
+    content:"X";
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+
+}
+
+
+
+/*start section3*/
+
+.buttonStyling2{
+    border-radius: 50%;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black
+}
+
+.buttonStyling2:hover{
+    color: white;
+    background-color: yellow;
+}
+
+

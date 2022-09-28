@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding: 0
+}
+
+header{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    height: auto;
+    
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li{
+    
+    width: 250px;
+    outline: 2px solid yellow;
+    margin: 10px;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+
+
+
+#listLink1, #listLink3, #listLink2{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+   
+}
+
+#textBlock{
+    min-height: 300px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.textBlockInner{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.textBlockInner h1{
+    color: var(--mainRed);
+
+    text-align: center
+
+}
+
+.textBlockInner p{
+    color:var(--mainGreen);
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/*section with cards*/
+#cardSection{
+    height: 800px;
+    background-color: rgba(102, 92, 92,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.cardSectionInner{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardItem{
+    outline: 1px solid var(--mainGreen);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 25%;
+    min-width: 250px;
+    padding: 3px;
+    min-height: 150px;
+    margin: 10px auto;
+    transition: 2s;
+}
+.cardItem:hover{
+    background-color: white;
+    box-shadow: 5px 10px 6px black;
+}
+
+.cardItem p, 
+.cardItem h2{
+    text-align: center;
+}
+
+/*start table section*/
+
+#tableSection{
+    min-height: 400px;
+}
+
+#tableSectionInner{
+
+    width: 80%;
+    margin: auto
+
+}
+
+
+table{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+th,td{
+    border: 2px solid gray;
+    text-align: center
+    
+}
+
+#tableHead{
+    font-size: 3rem
+}
+
+
+#sideNavigation{
+    height: 200px;
+    width: 200px; 
+    background-color: var(--mainGreen);
+    border: 1px solid white;
+    position: fixed;
+    top: 150px;
+    left: -170px;
+    transition: 2s;
+}
+
+#sideNavigation:hover{
+    left: 0
+}
+
+#sideNavigation ul{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+
+}
+
+.sideItem{
+    text-align: right;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 400px){
+
+    ul{
+        flex-direction: row;
+    }
+
+    li{
+    width: 120px
+    }
+
+    .textBlockInner{
+        width: 80%
+    }
+    
+    .textBlockInner h1{
+        width: 50%
+    }
+
+}
+
+@media screen and (min-width: 750px){
+
+    #cardSection{
+        height: 400px;
+    }
+
+    .cardSectionInner{
+        flex-direction: row;
+    }
+}
