@@ -56,3 +56,12 @@ fetch(URL)
     listOfPosts.appendChild(errorEl)
  
 })
+
+
+async function getMyData(){
+    const response = await fetch(URL);
+    const data = await response.json()
+    console.log(data)
+}
+
+getMyData()
