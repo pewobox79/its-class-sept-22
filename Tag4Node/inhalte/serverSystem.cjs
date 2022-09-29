@@ -6,7 +6,7 @@ const server = http.createServer((req, res)=>{
     }
 
     if(req.url === "/home"){
-        res.end("<h1>hallo impressum</h1>")
+        res.end("<h1>hallo home</h1>")
 
     }
 });
