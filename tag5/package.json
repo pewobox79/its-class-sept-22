@@ -1,0 +1,15 @@
+{
+  "name": "tag5",
+  "version": "1.0.0",
+  "description": "Tag 5 node und express",
+  "main": "index.cjs",
+  "scripts": {
+    "start": "node index.cjs",
+    "dev": "nodemon index.cjs"
+  },
+  "author": "Peter Wolf",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

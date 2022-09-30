@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>registration form new user</title>
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    </head>
+
+    <body>
+
+        <div class="userForm">
+            <h1>New User registration</h1>
+
+            <form action="/users" method="POST">
+                <label for="vorname">Vorname</label>
+                <input id="vorname" name="vorname" value="<%=locals.vorname  %> ">
+                <button type="submit">Register</button>
+            </form>
+
+        </div>
+
+
+</body>
+</html>

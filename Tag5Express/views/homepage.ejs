@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+    <head>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>meine tag5express page</title>
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    </head>
+    <body>
+        <%-include('header')%>
+        <h1>hallo zusammen aus dem views ordner</h1>
+        <h3>
+            <%- locals.text  ||"keine daten"%>
+
+        </h3>
+    </body>
+</html>
