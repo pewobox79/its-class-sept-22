@@ -1,0 +1,14 @@
+//JAVASCRIPT
+
+callback 
+https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+
+
+promises
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+
+aync - await
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
+

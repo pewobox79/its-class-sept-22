@@ -1,0 +1,16 @@
+//node links
+https://nodejs.dev/en/
+
+node files system 
+https://nodejs.dev/en/api/v18/buffer/
+
+
+node http module
+https://nodejs.dev/en/api/v18/http/
+
+
+node path module
+https://nodejs.dev/en/api/v18/path/
+
+node FS module
+https://nodejs.dev/en/api/v18/fs/

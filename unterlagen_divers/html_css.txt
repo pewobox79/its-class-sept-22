@@ -1,0 +1,11 @@
+//HTML und CSS
+html cheatsheet
+https://www.tutorialrepublic.com/html-reference/html5-tags.php
+
+
+css cheatsheet
+https://websitesetup.org/css3-cheat-sheet/
+
+
+flexBox guide
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/

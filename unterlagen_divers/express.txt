@@ -1,0 +1,27 @@
+
+//EXPRESS js
+main source
+https://expressjs.com/
+
+
+express router
+https://expressjs.com/en/4x/api.html#express.router
+
+
+express app.use
+https://expressjs.com/en/4x/api.html#app.use
+
+
+express app.listen
+https://expressjs.com/en/4x/api.html#app.listen
+
+
+express req.body
+https://expressjs.com/en/4x/api.html#req.body
+
+
+express req.params
+https://expressjs.com/en/4x/api.html#req.params
+
+
+
