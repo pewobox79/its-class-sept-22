@@ -10,3 +10,8 @@
 </ul>
 
 <h3>Hinweis für die nutzung der node installationene. nach dem pull erst mal in dem tages ordner ein npm install machen, damit die installation läuft</h3>
+
+<h3> Speziell bei node ist zu beachten</h3>
+
+<p>der kurs ist durch die unterschiedlichen versionierungen mit anderen file namen bearbeitet worden. .js ist zu .cjs geworden, da ES module nicht bei allen versionen geklappt hat.
+</p>
